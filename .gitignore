@@ -1,0 +1,57 @@
+# ==========================================
+# Logs and System/Environment Temp Files
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ==========================================
+# Visual Studio Code Configuration (.vscode)
+# ==========================================
+.vscode/*
+# Exception: You might want to share recommended extensions with your team.
+# If so, uncomment the line below:
+# !.vscode/extensions.json
+.history/
+*.vsix
+
+# ==========================================
+# OS-specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Local Environment Variables (Secrets)
+# ==========================================
+.env
+.env.development.local
+.env.production.local
+.env.local
+
+# ==========================================
+# Testing and Build Tool Outputs
+# ==========================================
+/coverage
+/.next/
+.nuxt
+.output
+.vuepress/dist
+.serverless/
+
+# Other IDEs and Editors temp files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
